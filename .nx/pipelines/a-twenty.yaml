@@ -1,0 +1,146 @@
+triggers:
+  pull-requests:
+    event: PR
+    branches: ['main']
+
+workflows:
+  burn-01:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-02:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-03:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-04:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-05:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-06:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-07:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-08:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-09:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-10:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-11:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-12:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-13:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-14:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-15:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-16:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-17:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-18:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-19:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
+  burn-20:
+    runs-on: linux-small-js
+    timeout-minutes: 20
+    steps:
+      - name: Sleep
+        script: |
+          for i in $(seq 1 1); do echo "tick $i"; sleep 30; done
