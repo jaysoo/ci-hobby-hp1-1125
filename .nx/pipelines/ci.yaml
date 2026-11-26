@@ -1,0 +1,15 @@
+triggers:
+  pull-requests:
+    event: PR
+    branches: ['main']
+
+workflows:
+  main:
+    runs-on: linux-medium-js
+    steps:
+      - name: Slow step
+        script: |
+          for i in $(seq 1 20); do echo "tick $i"; sleep 15; done
+      - name: Run affected tasks
+        script: |
+          npx nx affected -t lint test build
