@@ -12,6 +12,6 @@ export function slugify(text: string): string {
     .toLowerCase()
     .trim()
     .replace(/[^\w\s-]/g, '') // Remove non-word chars
-    .replace(/[\s_-]+/g, '-') // Replace spaces, underscores, multiple hyphens with single hyphen
+    .replace(/[\s_-]+/g, '_') // Replace spaces, underscores, multiple hyphens with single hyphen
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
 }
